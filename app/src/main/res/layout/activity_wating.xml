@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="quannkph29999.fpoly.assgd2.WatingActivity">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:src="@drawable/fpt"
+        />
+
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Khắc Quân"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_light"
+    />
+
+
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PH29999"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_light"
+   />
+
+</LinearLayout>

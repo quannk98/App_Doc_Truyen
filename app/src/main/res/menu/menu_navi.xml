@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/ds_truyen"
+        android:title="Danh Sách Truyện"
+        android:icon="@drawable/icon_book_24"
+        />
+    <item
+        android:id="@+id/ds_muatruyen"
+        android:title="Truyện Đã Mua"
+        android:icon="@drawable/icon_buy_box_24"
+        />
+    <item
+        android:id="@+id/taikhoan"
+        android:title="Tài Khoản"
+        android:icon="@drawable/icon_account_box_24"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="Đăng Xuất"
+        android:icon="@drawable/icon_logout_24"
+        />
+
+
+</group>
+<!--    <item-->
+<!--        android:title="Thống Kê"-->
+
+<!--        >-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/bestbook"-->
+<!--                android:title="Danh Sách Truyện Yêu Thích"-->
+<!--                android:icon="@drawable/baseline_book_online_24"-->
+<!--                >-->
+
+<!--            </item>-->
+<!--            <item-->
+<!--                android:id="@+id/total"-->
+<!--                android:title="Doanh Thu"-->
+<!--                android:icon="@drawable/baseline_attach_money_24"-->
+<!--                >-->
+
+<!--            </item>-->
+<!--        </menu>-->
+<!--    </item>-->
+
+
+</menu>

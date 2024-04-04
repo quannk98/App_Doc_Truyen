@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFCC"
+    android:gravity="center"
+    tools:context=".SignUp">
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:background="@drawable/vien_tren"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:src="@drawable/signup"
+            android:padding="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ĐĂNG KÝ"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/edt_namedk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên người dùng"
+            android:layout_margin="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edt_passworddk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mật khẩu"
+            android:layout_margin="10dp"
+            android:inputType="textPassword" />
+        <EditText
+            android:id="@+id/edt_emaildk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:layout_margin="10dp"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/edt_fullnamedk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Họ và tên"
+            android:layout_margin="10dp"
+            android:inputType="text" />
+        <Button
+            android:id="@+id/btn_dk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:text="Đăng Ký"
+            android:onClick="onSignInClick" />
+    </LinearLayout>
+
+
+</LinearLayout>

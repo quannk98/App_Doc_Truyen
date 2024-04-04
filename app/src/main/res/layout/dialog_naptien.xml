@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="NẠP TIỀN"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginStart="30dp"
+        android:id="@+id/edt_updateMoney"
+       android:paddingStart="10dp"
+        android:hint="Số tiền nạp"
+        android:layout_width="400dp"
+        android:layout_height="40dp"/>
+
+    <Button
+        android:id="@+id/btn_updateMoney"
+        android:layout_marginTop="15dp"
+        android:text="NẠP"
+        android:layout_width="200dp"
+        android:layout_height="40dp"/>
+
+</LinearLayout>

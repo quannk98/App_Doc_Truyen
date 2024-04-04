@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".fragment.DanhSachTruyenFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vien_tron"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edt_timkiem"
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:hint="Tìm kiếm"
+                android:paddingStart="20dp" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/img_alertComic"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/baseline_add_alert_24" />
+
+                <TextView
+                    android:id="@+id/tv_notification_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|top"
+                    android:background="@drawable/notification_circle"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="0"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </FrameLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/sp_searchprice"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp" />
+
+            <Spinner
+                android:id="@+id/sp_searchgenres"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp" />
+
+            <Button
+                android:id="@+id/btn_loc"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:text="Lọc" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/vien_tren"
+        android:paddingTop="25dp"
+        android:scrollbars="vertical" />
+
+
+</LinearLayout>
